@@ -80,17 +80,20 @@ The app will open in your browser at `http://localhost:8501`.
 
 ---
 
-## 🌐 Live Demo
-
-Check out the deployed app here: [retainia.streamlit.app](https://retainia.streamlit.app/)
-
----
-
 ## 🗂️ Project Structure
 ```
 ├── app.py                # Main Streamlit app
-├── mechanics.py               # Core logic (YouTube, Gemini, etc.)
+├── core.py               # Core logic (YouTube, Gemini, etc.)
 ├── requirements.txt      # Python dependencies
-├── .env                  # Your Gemini API key (private)
-├── visuals/          # App screenshots for README
+├── feedback.txt          # Stores user feedback
+├── .env                  # Your Gemini API key (not committed)
+├── screenshots/          # App screenshots for README
 └── ...
+```
+
+
+---
+
+## 📄 License
+
+MIT License
