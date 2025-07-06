@@ -48,68 +48,91 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 1. Clone the Repository
+### 1. Clone the Repository
 
-``bash
-git clone https://github.com/anushkaverse/studora.git
+git clone https://github.com/yourusername/studora.git
 cd studora
 
-📦 2. Create a Virtual Environment (Recommended)
-bash
+mathematica
 Copy
 Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-📥 3. Install Required Libraries
-bash
+### 2. Set Up Virtual Environment (Optional but recommended)
+
+python -m venv venv
+
+markdown
 Copy
 Edit
+
+**For Windows:**
+
+venv\Scripts\activate
+
+markdown
+Copy
+Edit
+
+**For macOS/Linux:**
+
+source venv/bin/activate
+
+shell
+Copy
+Edit
+
+### 3. Install Dependencies
+
 pip install -r requirements.txt
 
-🔑 4. Add Your Gemini API Key
-Create a .env file in the root folder:
-
-ini
+pgsql
 Copy
 Edit
+
+### 4. Add Google Gemini API Key
+
+Create a `.env` file in the project root directory and add the following line:
+
 GOOGLE_API_KEY=your_gemini_api_key_here
-You can get your API key from Google AI Studio.
 
-▶️ 5. Run the App
-bash
+shell
 Copy
 Edit
+
+### 5. Run the App
+
 streamlit run app.py
-The app will launch in your default browser at http://localhost:8501.
 
+---
 
-🗂️ Project Structure
+## Project Structure
 
-├── app.py                # Main Streamlit interface
-├── mechanics.py          # Transcript extraction & Gemini logic
-├── requirements.txt      # Project dependencies
-├── .env                  # Your Gemini API key
-├── visuals/              # 💡 Screenshots & app previews
+studora/
+│
+├── app.py
+├── mechanics.py
+├── requirements.txt
+├── .env
+├── feedback.txt
+├── visuals/
+│ ├── main_interface.png
+│ ├── summary_tab.png
+│ ├── flashcards_tab.png
+│ ├── revision_tab.png
+│ ├── resources_tab.png
+│ └── dashboard_history.png
 ├── README.md
 
+---
 
-🤝 Contributing
-Pull requests are welcome! If you'd like to suggest a feature or fix a bug, please open an issue first.
+## License
 
-📄 License
-This project is licensed under the MIT License. Feel free to use, modify, and share it for educational or personal purposes.
+MIT License
 
-🌐 Live Demo (optional)
-If deployed via Streamlit Community Cloud:
+## Acknowledgements
 
-🔗 studora.streamlit.app
-
-🙌 Acknowledgements
-Google Generative AI (Gemini)
-
-Streamlit
-
-YouTube Transcript API
+- Google Generative AI
+- Streamlit
+- YouTube Transcript API
