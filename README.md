@@ -51,7 +51,7 @@
 
 | Main Interface | Summary Tab | Flashcards |
 |----------------|-------------|------------|
-| ![Main](visuals/studora.1.jpg) | ![Summary](visuals/studora.2.jpg) | ![Flashcards](visuals/studora.3.jpg) |
+| ![Main](studora.1.jpg) | ![Summary](visuals/studora.2.jpg) | ![Flashcards](visuals/studora.3.jpg) |
 
 | Revision Plan | Resources |
 |---------------|-----------|
