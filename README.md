@@ -49,15 +49,21 @@
 ---
 ## 🖼️ Visual Preview
 
-| Main Interface | Summary Tab | Flashcards |
-|----------------|-------------|------------|
-| ![Main](studora.1.jpg) | ![Summary](studora.2.jpg) | ![Flashcards](studora.3.jpg) |
+### 🧭 Main Interface
+![Main Interface](studora.1.jpg)
 
-| Revision Plan | Resources |
-|---------------|-----------|
-| ![Revision](studora.4.jpg) | ![Resources](studora.5.jpg) |
+### 📝 Summary Tab
+![Summary Tab](studora.2.jpg)
 
----
+### 🃏 Flashcards
+![Flashcards](studora.3.jpg)
+
+### 🗓️ Revision Plan
+![Revision Plan](studora.4.jpg)
+
+### 🔗 Resources
+![Resources](studora.5.jpg)
+
 
 ## 🚀 Getting Started
 
