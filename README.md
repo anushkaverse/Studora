@@ -52,20 +52,23 @@
 
 ### 🔧 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/studora.git
+``bash
+git clone https://github.com/anushkaverse/studora.git
 cd studora
+
 📦 2. Create a Virtual Environment (Recommended)
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 📥 3. Install Required Libraries
 bash
 Copy
 Edit
 pip install -r requirements.txt
+
 🔑 4. Add Your Gemini API Key
 Create a .env file in the root folder:
 
@@ -84,11 +87,7 @@ The app will launch in your default browser at http://localhost:8501.
 
 
 🗂️ Project Structure
-bash
-Copy
-Edit
-studora/
-│
+
 ├── app.py                # Main Streamlit interface
 ├── mechanics.py          # Transcript extraction & Gemini logic
 ├── requirements.txt      # Project dependencies
