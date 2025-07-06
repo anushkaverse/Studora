@@ -47,6 +47,17 @@
 | Environment       | dotenv (`.env`) for API key storage |
 
 ---
+## 🖼️ Visual Preview
+
+| Main Interface | Summary Tab | Flashcards |
+|----------------|-------------|------------|
+| ![Main](visuals/studora.1.jpg) | ![Summary](visuals/studora.2.jpg) | ![Flashcards](visuals/studora.3.jpg) |
+
+| Revision Plan | Resources |
+|---------------|-----------|
+| ![Revision](visuals/studora.4.jpg) | ![Resources](visuals/studora.5.jpg) |
+
+---
 
 ## 🚀 Getting Started
 
