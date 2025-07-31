@@ -3,6 +3,7 @@
 **Studora** is a modern AI-powered study assistant that transforms YouTube lecture/tutorial videos into structured, downloadable study materials — all in one click. Built using **Streamlit**, **Python**, and **Google Gemini API**, Studora helps students instantly generate summaries, flashcards, revision plans, and extra resources from any educational video.
 
 ---
+[![Live Demo - Studora](https://img.shields.io/badge/Live%20App-Click%20Here-brightgreen?style=for-the-badge&logo=streamlit)](https://studora.streamlit.app/)
 
 ## ✨ Features
 
